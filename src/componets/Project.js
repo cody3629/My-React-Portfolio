@@ -30,8 +30,6 @@ function Project(props) {
                   <br />
                   <div className="content is-family-code">
                     Languages: {project.languages}
-                    <br />
-                    NPM Packages: {project.packages}
                   </div>
                   <div className="card">
                     <footer className="card-footer">
