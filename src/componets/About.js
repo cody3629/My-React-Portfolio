@@ -1,11 +1,12 @@
 import React from "react";
+import Me from '../assets/me.jpg';
 
 function About() {
   return (
     <div>
       <p className="content is-medium">Technical Writer and Something-of-a Full Stack Developer</p>
       <hr />
-      <img className="my-pic" src={process.env.PUBLIC_URL + '/img/profile.jpg'} alt="Emily Necciai Mayeski"/>
+      <img className="my-pic" src={Me} alt="Cody Webb"/>
       <p className="content is-italic mt-4">
       Hello, I'm Cody. I'm a Full Stack Web Developer from Columbus, OH.
       </p>
