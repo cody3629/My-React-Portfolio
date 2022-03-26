@@ -4,7 +4,7 @@ import Me from '../assets/me.jpg';
 function About() {
   return (
     <div>
-      <p className="content is-medium">Technical Writer and Something-of-a Full Stack Developer</p>
+      <p className="content is-medium">Full Stack Web Developer</p>
       <hr />
       <img className="my-pic" src={Me} alt="Cody Webb"/>
       <p className="content is-italic mt-4">
